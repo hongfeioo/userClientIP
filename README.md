@@ -1,19 +1,19 @@
 # userClientIP
-是用户端自检的小工具，可收集用户的本地IP，外网IP，traceroute信息
+是用户端自检的小工具，可收集用户端本地IP，外网IP，traceroute信息
 
-#用途
+# 用途
 如果你的用户访问不了你的门户， 试试这个工具吧。
 
 
 
 
-#文件介绍
+# 文件介绍
 1. getClientNatIPWindows.go      用于生成windowsX64平台下的代码
 2. getClientNatIP.go             用户生成MacOS和LinuxX86_64的代码
 3. getWebHostIP.go       提供一个简单的界面可以让用户下载各个平台的检测工具，并直接显示用户的ip和浏览器信息。
 
 
-#生成文件 debug.txt 
+# 生成文件 debug.txt 
 ```
 内涵三个信息：
 1   客户端的本地ip
